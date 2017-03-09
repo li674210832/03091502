@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+  <android.support.v4.view.ViewPager
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:id="@+id/vp">
+
+  </android.support.v4.view.ViewPager>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/lin"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="180dp"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+    </RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/tv_ping"
+        android:textColor="#f00"
+        android:text="品牌专场"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+
+            android:gravity="center"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tv_hua"
+            android:text="花王品牌专场"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/tv_ai"
+            android:text="爱他美"/>
+    </LinearLayout>
+
+</LinearLayout>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dp"
+      android:gravity="center"
+      android:text="商品秀"/>
+<GridView
+    android:layout_marginTop="20dp"
+    android:id="@+id/lv_gg"
+    android:layout_width="match_parent"
+    android:numColumns="2"
+    android:layout_height="match_parent">
+
+</GridView>
+
+</LinearLayout>
